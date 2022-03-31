@@ -1,0 +1,447 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-decoration:none;
+	list-style:none;
+}
+body{
+	background-image:url(../img/collage.jpg);
+	background-repeat:repeat;
+	/*background-size:cover;*/
+	width:100%;
+	height:100%;
+	/*display:flex;*/
+
+}
+.sidebar{
+	background-color:#7209B7;
+	position:fixed;
+	width: 200px;
+	height:100vh;
+}
+.logo{
+	width: 60px;
+	margin:auto;
+}
+.conten-logo-p span{
+	color:white;
+	font-size:1.5em;
+}
+.logo-inicio-p{
+	width: 40%;
+	padding: 0px 0px;
+}
+#barras{
+	display: none;
+}
+#lista{
+	margin:10px;
+}
+.lista-li{
+	color:white;
+	padding:5px 0;
+	cursor:pointer;
+}
+.lista-li a{
+	text-decoration:none;
+	color:white;
+}
+
+.main{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	width:100%;
+	padding:30px 0;
+
+}
+.main-div{
+	background-color:white;
+	width:60%;
+	padding:30px;
+}
+.main-div-a{
+	background-color:white;
+	width:60%;
+	padding:30px;
+}
+.main-form{
+	
+	border: 1px solid gray;
+	margin:5px;
+		
+}
+.main-form label{
+	display:block;
+	padding:5px;
+}
+.main-form input{
+	display:block;
+	margin:5px;
+	padding:5px;
+}
+.titulo{
+	
+	padding-top:10px;
+}
+.img-pre{
+	width:100%;
+	max-width:700px;
+	padding: 20px;
+	margin:auto;
+}
+.div-img{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.btn-publi{
+	background-color:#7209B7;
+	position:absolute;
+	top:30px; 
+	right:70px;
+	padding:5px 10px;
+	border:none;
+	
+
+}
+.btn-publi a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	cursor:pointer;
+}
+
+/*-------------Dibujo-------------------*/
+
+.titulo-dibujo{
+	background-color:#7209B7;
+	padding:20px;
+	text-align:center;
+}
+.titulo-dibujo h1{
+	color:white;
+}
+.titulo-dibujo hr{
+	width:80%;
+	margin:auto;
+}
+
+
+
+.card{
+	background-color:#F2F2F2;
+	border:1px solid red;
+	margin-bottom:30px;
+	display:flex;
+	/*justify-content:center;*/
+	flex-direction:column;
+	align-items:center;
+	padding: 20px;
+
+}
+/*------formulario de login-------*/
+.form-login{
+	position:relative;
+	margin:auto;
+	margin-top:15%;
+	padding: 10px;
+	background-color:#7209B7;
+	width:15%;
+	min-width:200px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+
+}
+.form-login input{
+	margin: 10px;
+	padding: 5px;
+	width:100%;
+	
+}
+.form-login p{
+	font-size:2em;
+	color:white;
+	padding: 5px;
+}
+.form-login label{
+	color:white;
+}
+
+/*------lista de publicaciones------*/
+.t-list{
+	text-align:center;
+	font-weight:bold;
+	padding:10px 0px;
+}
+table{
+	margin:auto;
+}
+table tr td{
+	padding: 0px 20px;
+
+}
+
+/*-----------Inicio------------*/
+.header-inicio{
+	background-color:#7209B7;
+	width:100%;
+	padding:10px 10px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.conten-logo{
+	width:38%;
+}
+.conten-logo span{
+	color:white;
+	font-size:1.5em;
+}
+.logo-inicio{
+	width: 25%;
+	padding: 0px 0px;
+}
+.header-inicio div{
+	margin-right:0px;
+}
+.header-inicio p{
+	font-size:0.9em;
+	display:inline-block;
+	padding:5px;
+	margin: 0px 10px;
+
+}
+.header-inicio p a{
+	color:white;
+}
+.r-i-s{
+	display:flex;
+	justify-content:flex-end;
+	color:white;
+}
+.menu{
+	width: 100%;
+	display:flex;
+	justify-content:flex-start;
+	margin-top: 30px;
+	margin-left:0px;
+}
+.menu-li{
+	background:#7209B7;
+	padding:5px 20px;
+	border-radius:50px;
+	margin:0px 5px;
+}
+.menu-li:hover{
+	background-color:#03045e;
+}
+.menu-li-a{
+	color:white;
+}
+.carrusel{
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
+.carrusel-items{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#EAEAEA;
+	/*height:50%;*/
+	width: 73%;
+	border:1px solid white;
+	border-radius:10px;
+	overflow:hidden;
+	margin-top:30px;
+	padding:15px 10px;
+	/*overflow-x:hide;*/
+}
+.carrusel-item {
+  min-width: 190px;
+  max-width: 190px;
+  height: 180px;
+  padding:5px 8px;
+  } 
+.carrusel-item img {
+  width: 100%;
+  height: 100%;
+  border-radius:10px;
+}
+.carrusel-item img:hover {
+  transform:scale(1.2);
+}
+.main-bienve{
+	width:40%;
+	display:flex;
+	flex-direction:column;
+	/*padding: 20px;*/
+
+}
+.main-bienve-a{
+	background-color:white;
+	padding: 20px;
+	height: auto;
+}
+.main-bienve article{
+	width:100%;
+	margin:5px;
+	margin-left:0;
+	padding:10px;
+	background-color:#F2F2F2; 
+
+}
+.b-lateral{
+	width:30%;
+	margin-left:30px;
+	display:flex;
+	flex-direction:column;
+}
+.b-lateral-c{
+	background:#F2F2F2;
+	padding:10px;
+}
+.img-nuevo{
+	width:100%;
+}
+/*-------------Comentarios----------*/
+.div-comentar{
+	border: 1px solid blue;
+	border-radius:5px;
+	padding: 10px;
+	margin-bottom:50px;
+	background-color:#F2F2F2;
+}
+.div-comentar textarea{
+	width:100%;
+	height: 80px;
+	resize:none;
+}
+.div-comentar div{
+	width:100%;
+	display:flex;
+	justify-content:flex-end;
+}
+.div-comentar input{
+	padding: 5px;
+	margin-top:5px;
+}
+.conten-coment{
+	width: 100%;
+	border: 1px solid gray;
+	border-radius:5px;
+	padding: 10px;
+	margin-bottom:5px;
+	background-color:#F2F2F2;
+}
+.conten-coment span{
+	color:#7209B7;
+	font-weight:bold;
+}
+.coment{
+	margin-left:10px;
+}
+.fecha_coment{
+	width:100%;
+	display:flex;
+	justify-content:flex-end;
+}
+/*--------------------------------*/
+.centrar{display:block;text-align:center;}
+
+
+/*--------------------------------*/
+
+/*-------------Media query-----------*/
+
+/*--formulario de login---*/
+@media(max-width:700px){
+.form-login{
+	margin-top:70%;
+	width:50%;
+}
+
+@media(max-width:952px){
+	.main{
+		display:flex;
+		flex-direction:column;
+		padding:20px;
+		width:100%;
+	}
+	.main-bienve{
+		width:100%;
+	}
+	.b-lateral{
+		width:100%;
+		padding:0;
+		margin:10px 0px;
+	}
+	.carrusel-items{
+		width:90%;
+	}
+	.sidebar{
+		height:auto;
+		width:100%;
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+	}
+	#lista{
+		display:none;
+		padding: 5px 0;
+	}
+	.desplegar{
+		display:;
+		padding:0px;
+		margin:5px;
+		position:absolute;
+		width:100%;
+		top:55px;
+		left:-10px;
+		background:#7209B7;
+		text-align:center;
+	}
+
+	.conten-logo-p{
+		width:300px;
+		padding-left:10px;
+	}
+	.logo-inicio-p{
+		display:inline-block;
+		width:25%;
+	}
+	.btn-publi{
+		display:none;
+	}
+	#barras{
+		display:inline-block;
+		float:left;
+		width:30px;
+
+	}
+	.main-div{
+		margin-top:50px;
+		width:100%;
+	}
+	.main-div-a{
+		margin-top:60%;
+		width:100%;
+	}
+	.card{
+		width:100%;
+	}
+	.img-pre{
+		width:100%;
+	}
+	table tr td{
+	padding: 0px 5px;
+
+}
+}
